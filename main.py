@@ -1,4 +1,3 @@
-import random
 import genetic
 import graph as graph_class
 
