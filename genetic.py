@@ -82,19 +82,19 @@ def next_population(population):
     new_population = list()
     new_population.append(population[0])
     new_population.append(
-        crossbreeding(population[0], population[1])
+        crossbreeding(population[0], population[9])
     )
     new_population.append(
-        crossbreeding(population[2], population[3])
+        crossbreeding(population[1], population[8])
+    )
+    new_population.append(
+        crossbreeding(population[2], population[7])
+    )
+    new_population.append(
+        crossbreeding(population[3], population[6])
     )
     new_population.append(
         crossbreeding(population[4], population[5])
-    )
-    new_population.append(
-        crossbreeding(population[6], population[7])
-    )
-    new_population.append(
-        crossbreeding(population[8], population[9])
     )
     new_population.append(
         mutation(population[0])
